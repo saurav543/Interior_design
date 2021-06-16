@@ -1,0 +1,660 @@
+/* css for  home page */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+}
+
+.container {
+    padding-left: -10px !important;
+    padding-right: -10px !important;
+}
+
+input {
+    color: white;
+}
+
+@media only screen and ( min-width:2000px) {
+    nav {
+        font-size: 30px !important;
+        height: 100px;
+    }
+    .lam {
+        font-size: 50px !important;
+        top: 20px;
+    }
+    .dat {
+        font-size: 30px !important;
+        margin-top: 20px;
+    }
+    i.dat,
+    input.dat {
+        margin-top: 25px !important;
+    }
+}
+
+i.dat,
+input.dat {
+    margin-top: 6px;
+}
+
+.carousel .carousel-item>img {
+    height: 650px !important;
+}
+
+.arrow {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 40px;
+    size: 10px;
+    color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+    .carousel .carousel-item>img {
+        height: 400px !important;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    .carousel .carousel-item>img {
+        height: 800px !important;
+    }
+}
+
+.bottom-left {
+    position: absolute;
+    top: 50px;
+    left: 45%;
+    font-size: 30px;
+}
+
+hr {
+    width: 40%;
+    left: 48px;
+    color: grey;
+}
+
+.small2 {
+    width: 100%;
+    height: 600px;
+}
+
+@media only screen and (max-width:990px) {
+    .small2 {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media only screen and (min-width:2000px) {
+    .small2 {
+        width: 100%;
+        height: 800px;
+    }
+}
+
+.row.small-part div>img {
+    width: 100%;
+    height: 250px;
+}
+
+@media only screen and (max-width:990px) {
+    .row.small-part div>img {
+        width: 105px !important;
+        height: 130px !important;
+    }
+}
+
+@media only screen and (min-width:2000px) {
+    .row.small-part div>img {
+        width: 100% !important;
+        height: 500px !important;
+    }
+}
+
+div.col.m6.text1>p {
+    color: grey;
+    font-size: 25px;
+    text-align: justify;
+    padding: 0px 70px 0px 70px;
+}
+
+@media only screen and (max-width:1024px) {
+    div.col.m6.text1>p {
+        color: grey;
+        font-size: 21px;
+        text-align: justify;
+        padding: 0px 60px 0px 60px;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    div.col.m6.text1>p {
+        color: grey;
+        font-size: 40px;
+        text-align: justify;
+        padding: 0px 80px 0px 80px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    div.col.m6.text1>p {
+        color: grey;
+        font-size: 15px;
+        text-align: justify;
+        padding: 0px 30px 0px 30px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .parallax-container {
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 2000px) {
+    .parallax-container {
+        height: 1000px;
+    }
+}
+
+.text2 {
+    color: grey;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+}
+
+.center2 {
+    color: grey;
+    font-size: 50px;
+    text-align: center;
+}
+
+.small>img {
+    width: 100%;
+    height: 500px;
+}
+
+@media only screen and (max-width:990px) {
+    .small>img {
+        width: 100% !important;
+        height: 400px !important;
+    }
+}
+
+@media screen and (min-width:2000px) and (max-width:2600px) {
+    .small>img {
+        width: 100% !important;
+        height: 700px !important;
+    }
+}
+
+.trust {
+    font-size: 40px;
+    text-align: center;
+    color: rgba(31, 29, 29, 0.527);
+}
+
+.col.m3.try>img {
+    width: 70%;
+    height: 150px;
+}
+
+.footer {
+    background-color: silver;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+}
+
+@media screen and (max-width:990px) {
+    .footer {
+        background-color: silver;
+        text-align: center;
+        height: 450px;
+        width: 100%;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:2000px) {
+    .footer {
+        background-color: silver;
+        text-align: center;
+        font-size: 50px;
+        height: 1300px;
+        width: 100%;
+    }
+}
+
+
+/* contact us */
+
+.contact {
+    background-color: skyblue;
+    height: 80%;
+    width: 100%;
+    font-size: 50px;
+    padding: 5% 35%;
+    /* text-align: center; */
+}
+
+@media only screen and (max-width:750px) {
+    .contact {
+        background-color: skyblue;
+        width: 100%;
+        height: 150px;
+        font-size: 20px;
+        padding: 10% 30%;
+        /* text-align: center; */
+    }
+}
+
+.secline {
+    color: grey;
+    font-size: 30px;
+    text-align: center;
+}
+
+.form {
+    margin-left: 200px;
+    width: 50%;
+    height: 500px;
+}
+
+input {
+    color: black;
+}
+
+@media only screen and (max-width:990px) {
+    .form {
+        margin-left: 20px;
+        width: 100%;
+        height: 500px;
+    }
+    label {
+        font-size: 5px !important;
+    }
+}
+
+@media only screen and (min-width:2000px) {
+    .form {
+        margin-left: 200px;
+        width: 80%;
+        height: 500px;
+        font-size: 40px;
+    }
+    label {
+        font-size: 30px !important;
+    }
+}
+
+div.cont>img {
+    width: 80%;
+    height: 500px;
+}
+
+@media only screen and (max-width:990px) {
+    div.cont>img {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width:990px) {
+    div.cont>img {
+        width: 60%;
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width:2000px) {
+    div.cont>img {
+        width: 70%;
+        height: 600px;
+    }
+}
+
+.add {
+    padding-left: 10%;
+    font-size: 40px;
+    color: grey;
+    text-align: justify;
+}
+
+.data1 {
+    padding-left: 10%;
+    font-size: 30px;
+    color: silver;
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width:990px) {
+    .add {
+        padding-left: 10%;
+        font-size: 30px;
+        color: grey;
+        text-align: justify;
+    }
+    .data1 {
+        padding-left: 10%;
+        font-size: 15px;
+        color: silver;
+        text-align: left;
+        word-wrap: break-word;
+    }
+}
+
+@media only screen and (min-width:2000px) {
+    .btn {
+        height: 70px;
+        width: 250px;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width:2000px) {
+    .add {
+        padding-left: 10%;
+        font-size: 60px;
+        color: grey;
+        text-align: justify;
+    }
+    .data1 {
+        padding-left: 10%;
+        font-size: 30px;
+        color: silver;
+        text-align: left;
+        word-wrap: break-word;
+    }
+}
+
+
+/* css for about us page */
+
+.team {
+    width: 100%;
+    height: 350px;
+    background-color: silver;
+    text-align: center;
+}
+
+@media only screen and (max-width:990px) {
+    .team {
+        width: 100%;
+        height: 630px;
+        background-color: silver;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:2000px) {
+    .team {
+        width: 100%;
+        height: 400px;
+        background-color: silver;
+        text-align: center;
+    }
+}
+
+.spcial {
+    font-size: 50px;
+    padding-top: 100px;
+    /* text-align: center; */
+}
+
+@media only screen and (max-width:990px) {
+    .spcial {
+        font-size: 35px;
+        padding-top: 100px;
+        /* text-align: center; */
+    }
+}
+
+@media only screen and (min-width:2000px) {
+    .spcial {
+        font-size: 70px;
+        padding-top: 100px;
+        /* text-align: center; */
+    }
+}
+
+.lines {
+    font-size: 20px;
+    padding: 10px 300px 10px 300px;
+}
+
+@media only screen and (max-width:990px) {
+    .lines {
+        font-size: 20px;
+        padding: 10px 50px 10px 50px;
+    }
+}
+
+@media only screen and (min-width:2000px) {
+    .lines {
+        font-size: 30px;
+        padding: 10px 200px 10px 200px;
+    }
+}
+
+.mainperson {
+    height: auto;
+    width: 400px !important;
+}
+
+.name {
+    text-align: center;
+    background-color: grey;
+}
+
+.row {
+    margin-bottom: 0px;
+}
+
+.temp {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media only screen and (max-width:990px) {
+    .temp {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+
+.tem {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: 900;
+    color: silver;
+}
+
+.card {
+    border-radius: 5%;
+    width: 80%;
+    height: 500px;
+    margin-bottom: 10%;
+}
+
+.card-title {
+    /* color: black !important; */
+    font-weight: bolder !important;
+}
+
+.card-content {
+    color: grey;
+}
+
+.card-small:hover {
+    box-shadow: 10px 10px 10px 10px;
+    color: grey;
+}
+
+@media only screen and (max-width:990px) {
+    div.card {
+        border-radius: 5%;
+        width: 100%;
+        height: 1050px !important;
+        font-size: 30px;
+        margin-bottom: 10%;
+        word-wrap: break-word;
+    }
+}
+
+@media only screen and (min-width:2000px) {
+    div.card {
+        border-radius: 10%;
+        width: 100%;
+        height: 1000px !important;
+        font-size: 35px;
+        margin-bottom: 10%;
+        word-wrap: break-word;
+    }
+}
+
+div.card-image>img {
+    border-radius: 5% 5% 0px 0px !important;
+    height: 350px;
+}
+
+@media only screen and (max-width:990px) {
+    div.card-image>img {
+        border-radius: 5% 5% 0px 0px !important;
+        width: 80%;
+        height: 300px !important;
+    }
+}
+
+
+/* css for  work page  */
+
+.v-header {
+    height: 400px;
+    width: 100%;
+}
+
+div.fullscreen-video-wrap {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: -100;
+}
+
+div.header-content {
+    position: absolute;
+    font-size: 70px !important;
+    top: 25%;
+    left: 35%;
+    color: #ffff;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width:990px) {
+    .v-header {
+        height: 300px;
+        width: 100%;
+    }
+    div.fullscreen-video-wrap {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -100;
+    }
+    div.header-content {
+        position: absolute;
+        font-size: 40px !important;
+        top: 50%;
+        left: 25%;
+        color: #ffff;
+    }
+}
+
+@media only screen and (min-width:2000px) {
+    .v-header {
+        height: 800px;
+        width: 100%;
+    }
+    div.fullscreen-video-wrap {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -100;
+    }
+    div.header-content {
+        position: absolute;
+        font-size: 100px !important;
+        top: 60%;
+        left: 40%;
+        color: #ffff;
+    }
+}
+
+.pal {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+.pic>img {
+    width: 80%;
+    height: 200px;
+    text-align: center;
+}
+
+@media only screen and (max-width:990px) {
+    .pal {
+        height: auto;
+    }
+    .pic>img {
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width:2000px) {
+    .pic>img {
+        width: 80%;
+        height: 400px;
+        text-align: center;
+    }
+    .pic {
+        font-size: 30px;
+    }
+    .pal {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        height: auto;
+    }
+}
